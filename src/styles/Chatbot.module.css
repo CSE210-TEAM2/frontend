@@ -1,0 +1,55 @@
+.chatbotContainer {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px; /* Adjust the padding as needed */
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.welcomeMessage {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.trendingTopics {
+  margin: 20px 0; /* Adjust as needed */
+}
+
+.topicButton {
+  background-color: #blue; /* Replace with actual color */
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.topicButton:focus,
+.topicButton:hover {
+  background-color: #darkblue; /* Replace with actual hover color */
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #ccc; /* Adjust color as needed */
+  box-sizing: border-box;
+}
+
+.sendButton {
+  background-color: #blue; /* Replace with actual color */
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sendButton:focus,
+.sendButton:hover {
+  background-color: #darkblue; /* Replace with actual hover color */
+}
+
