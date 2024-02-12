@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from '../styles/Chatbot.module.css';
+import styles from '../styles/Message.module.css';
 
 function Message() {
   const [inputValue, setInputValue] = useState('');
@@ -16,7 +16,7 @@ function Message() {
   };
 
 	return (
-		<div>
+		<div className={styles.inputGroup}>
 			<input
         		className={styles.inputField}
 		        type="text"
@@ -24,7 +24,7 @@ function Message() {
 		        onChange={handleInputChange}
 		        placeholder="How can I make an appointment with CAPS?"
 		      />
-      		<button className={styles.sendButton} onClick={handleSubmit}>Send</button>
+      		<button className={styles.sendButton} onClick={handleSubmit}>&#x21E7;</button>
 		</div>
 	);
 }
